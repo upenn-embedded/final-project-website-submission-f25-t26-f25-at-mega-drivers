@@ -14,7 +14,7 @@
 
 **GitHub Repository URL: [https://github.com/upenn-embedded/final-project-website-submission-f25-t26-f25-at-mega-drivers](https://github.com/upenn-embedded/final-project-website-submission-f25-t26-f25-at-mega-drivers)**
 
-**GitHub Pages Website URL:** [https://upenn-embedded.github.io/atmega-drivers/]()
+**GitHub Pages Website URL:** [https://upenn-embedded.github.io/atmega-drivers/](https://upenn-embedded.github.io/atmega-drivers/)
 
 ## Final Project Report
 
