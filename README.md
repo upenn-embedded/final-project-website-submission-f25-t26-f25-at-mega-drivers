@@ -24,11 +24,12 @@ Watch our final project video here: [https://drive.google.com/file/d/1IMHc0yKnxA
 
 ### Images
 
-`<img src="images/Final Project/Leg_Driver.jpg" alt="Leg Driver Image" width="250"/>`
-`<img src="images/Final Project/Arm_Driver.jpg" alt="Arm Driver Image" width="250"/>`
-`<img src="images/Final Project/Fan_System.jpg" alt="Fan System Image" width="250"/>`
+<img src="images/Final Project/Leg_Driver.jpg" alt="Leg Driver Image" width="250"/>
+<img src="images/Final Project/Arm_Driver.jpg" alt="Arm Driver Image" width="250"/>
+<img src="images/Final Project/Fan_System.jpg" alt="Fan System Image" width="250"/>
 
-`<img src="images/Final Project/Full_System.jpg" alt="Full System Image" width="760"/>`
+<img src="images/Final Project/Full_System.jpg" alt="Full System Image" width="760"/>
+
 
 ### 3. Results
 
@@ -36,7 +37,7 @@ For our final project, we were able to build a racing simulator controller as de
 
 With a bit of extra time, we were able to go beyond this initial goal to also control a fan that would blow air at the user if they were driving fast, to make the simulation more realistic. This unit recieved the speed from the python socket and converted that data into a PWM signal from an ATMega to control the motor. See our final system diagram below.
 
-`<img src="images/Final Project/Final_Report_Block.drawio.png" alt="Final System Block Diagram" width="760"/>`
+<img src="images/Final Project/Final_Report_Block.drawio.png" alt="Final System Block Diagram" width="760"/>
 
 ### 3.1 Software Requirements
 
@@ -65,7 +66,7 @@ Hard to be tested, but system was responsive to controls immediately after input
 
 SRS-04: Python socket receives and uses user input within 200ms.
 
-Again, this was hard to test, but our final system very quickly responded to user movements, meaning the Python socket was operating at an acceptable timing rate. 
+Again, this was hard to test, but our final system very quickly responded to user movements, meaning the Python socket was operating at an acceptable timing rate.
 
 ### 3.2 Hardware Requirements
 
@@ -78,7 +79,7 @@ Again, this was hard to test, but our final system very quickly responded to use
 
 HRS-01: The ATmega328PB and ESP32 will be powered with a 9V battery and should last approximately 2 hours before the battery is depleted.
 
-Verified -- We measured that the ATmega (which is powering the ESP32 and the imu) pulls a maximum of 131mA from the battery. On the datasheet, the battery has a rating of over 500mAh, which means one battery can power the controller system for well over 3 hours, exceeding our two hour requirement. 
+Verified -- We measured that the ATmega (which is powering the ESP32 and the imu) pulls a maximum of 131mA from the battery. On the datasheet, the battery has a rating of over 500mAh, which means one battery can power the controller system for well over 3 hours, exceeding our two hour requirement.
 
 HRS-02: The IMU will capture the user’s movements, which will be processed through the ATmega.
 
