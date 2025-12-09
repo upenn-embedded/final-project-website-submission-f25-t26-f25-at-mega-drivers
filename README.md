@@ -30,6 +30,7 @@ Watch our final project video here: [https://drive.google.com/file/d/1IMHc0yKnxA
 
 `<img src="images/Final Project/Full_System.jpg" alt="Full System Image" width="760"/>`
 
+
 ### 3. Results
 
 For our final project, we were able to build a racing simulator controller as desired. We build one unit that attaches to the user's arm to mesure rotation (i.e. the steering wheel), and one unit that attaches to the user's leg to measure forward/backward acceleration (i.e. the gas pedal, with the functionality to reverse). We filtered noise from imu data to generate clear signals from which we could convert the user's movement to simulation commands. We were able to send these commands to a Python socket which used them to control the driving simulation, as desired.
@@ -65,7 +66,7 @@ Hard to be tested, but system was responsive to controls immediately after input
 
 SRS-04: Python socket receives and uses user input within 200ms.
 
-Again, this was hard to test, but our final system very quickly responded to user movements, meaning the Python socket was operating at an acceptable timing rate. 
+Again, this was hard to test, but our final system very quickly responded to user movements, meaning the Python socket was operating at an acceptable timing rate.
 
 ### 3.2 Hardware Requirements
 
@@ -78,7 +79,7 @@ Again, this was hard to test, but our final system very quickly responded to use
 
 HRS-01: The ATmega328PB and ESP32 will be powered with a 9V battery and should last approximately 2 hours before the battery is depleted.
 
-Verified -- We measured that the ATmega (which is powering the ESP32 and the imu) pulls a maximum of 131mA from the battery. On the datasheet, the battery has a rating of over 500mAh, which means one battery can power the controller system for well over 3 hours, exceeding our two hour requirement. 
+Verified -- We measured that the ATmega (which is powering the ESP32 and the imu) pulls a maximum of 131mA from the battery. On the datasheet, the battery has a rating of over 500mAh, which means one battery can power the controller system for well over 3 hours, exceeding our two hour requirement.
 
 HRS-02: The IMU will capture the user’s movements, which will be processed through the ATmega.
 
@@ -107,7 +108,7 @@ Verified -- This is shown in the demo video. You do not need to be able to grip 
 
 400 by 400 image:
 
-<img src="images/Final Project/Final_System_400.jpg" alt="Full System Image 400 by 400" width="400" height="400"/>
+`<img src="images/Final Project/Final_System_400.jpg" alt="Full System Image 400 by 400" width="400" height="400"/>`
 
 ## Final Project Proposal
 
