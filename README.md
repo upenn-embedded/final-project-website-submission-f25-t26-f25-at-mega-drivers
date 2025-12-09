@@ -1,10 +1,10 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/a-5mB3GB)
 
-# final-project-skeleton
+# (AT)Mega Drivers Final Project
 
 **Team Number: 26**
 
-**Team Name: AT(Mega) Drivers**
+**Team Name: (AT)Mega Drivers**
 
 | Team Member Name | Email Address           |
 | ---------------- | ----------------------- |
@@ -67,7 +67,7 @@ Hard to be tested, but system was responsive to controls immediately after input
 
 SRS-04: Python socket receives and uses user input within 200ms.
 
-Unable to be tested due to measuring tools limitation.
+Again, this was hard to test, but our final system very quickly responded to user movements, meaning the Python socket was operating at an acceptable timing rate. 
 
 
 ### 3.2 Hardware Requirements
@@ -82,19 +82,19 @@ Unable to be tested due to measuring tools limitation.
 
 HRS-01: The ATmega328PB and ESP32 will be powered with a 9V battery and should last approximately 2 hours before the battery is depleted.
 
-The battery of the 9v depletes at 110ma as measured by the multimeter. Since a 9v battery has 400mAh, it will last a little over 3 hours.
+Verified -- We measured that the ATmega (which is powering the ESP32 and the imu) pulls a maximum of 131mA from the battery. On the datasheet, the battery has a rating of over 500mAh, which means one battery can power the controller system for well over 3 hours, exceeding our two hour requirement. 
 
 HRS-02: The IMU will capture the user’s movements, which will be processed through the ATmega.
 
-Verified by using the logic analyzer to read the signals passed between the two, as shown above. This can also be seen from the demo -- by moving the imu the controls of the simulation change.
+Verified -- As shown above, we used the logic analyzer to read the signals passed between the two. This can also be seen from the demo -- by moving the imu the controls of the simulation change.
 
 HRS-03: The driving controller system and the computer/simulation system will be physically separate (i.e. no cables connecting them).
 
-Verified. This is shown in the pictures and the demo video. Full system was completely separate from the software running on the computer.
+Verified -- This is shown in the pictures and the demo video. Full system was completely separate from the software running on the computer.
 
 HRS-04: The final system will require minimal amounts of fine motor skills to operate – the system should be operable by a user with arthritis.
 
-Verified as shown in the demo video. You do not need to be able to grip anything or use your fingers. Everything is controlled by large natural movements such as the twisting of your arm or the extension of your legs.
+Verified -- This is shown in the demo video. You do not need to be able to grip anything or use your fingers. Everything is controlled by large natural movements such as the twisting of your arm or the extension of your legs.
 
 ### 4. Conclusion
 
