@@ -24,11 +24,11 @@ Watch our final project video here: [https://drive.google.com/file/d/1IMHc0yKnxA
 
 ### Images
 
-`<img src="images/Final Project/Leg_Driver.jpg" alt="Leg Driver Image" width="250"/>`
-`<img src="images/Final Project/Arm_Driver.jpg" alt="Arm Driver Image" width="250"/>`
-`<img src="images/Final Project/Fan_System.jpg" alt="Fan System Image" width="250"/>`
+<img src="images/Final Project/Leg_Driver.jpg" alt="Leg Driver Image" width="250"/>
+<img src="images/Final Project/Arm_Driver.jpg" alt="Arm Driver Image" width="250"/>
+<img src="images/Final Project/Fan_System.jpg" alt="Fan System Image" width="250"/>
 
-`<img src="images/Final Project/Full_System.jpg" alt="Full System Image" width="760"/>`
+<img src="images/Final Project/Full_System.jpg" alt="Full System Image" width="760"/>
 
 ### 3. Results
 
