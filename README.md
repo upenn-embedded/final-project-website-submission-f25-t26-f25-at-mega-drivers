@@ -108,7 +108,7 @@ Verified -- This is shown in the demo video. You do not need to be able to grip 
 
 400 by 400 image:
 
-`<img src="images/Final Project/Final_System_400.jpg" alt="Full System Image 400 by 400" width="400" height="400"/>`
+<img src="images/Final Project/Final_System_400.jpg" alt="Full System Image 400 by 400" width="400" height="400"/>
 
 ## Final Project Proposal
 
