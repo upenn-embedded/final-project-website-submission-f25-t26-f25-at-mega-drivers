@@ -24,11 +24,11 @@ Watch our final project video here: [https://drive.google.com/file/d/1IMHc0yKnxA
 
 ### Images
 
-`<img src="images/Final Project/Leg_Driver.jpg" alt="Leg Driver Image" width="250"/>`
-`<img src="images/Final Project/Arm_Driver.jpg" alt="Arm Driver Image" width="250"/>`
-`<img src="images/Final Project/Fan_System.jpg" alt="Fan System Image" width="250"/>`
+<img src="images/Final Project/Leg_Driver.jpg" alt="Leg Driver Image" width="250"/>
+<img src="images/Final Project/Arm_Driver.jpg" alt="Arm Driver Image" width="250"/>
+<img src="images/Final Project/Fan_System.jpg" alt="Fan System Image" width="250"/>
 
-`<img src="images/Final Project/Full_System.jpg" alt="Full System Image" width="760"/>`
+<img src="images/Final Project/Full_System.jpg" alt="Full System Image" width="760"/>
 
 ### 3. Results
 
@@ -36,7 +36,7 @@ For our final project, we were able to build a racing simulator controller as de
 
 With a bit of extra time, we were able to go beyond this initial goal to also control a fan that would blow air at the user if they were driving fast, to make the simulation more realistic. This unit recieved the speed from the python socket and converted that data into a PWM signal from an ATMega to control the motor. See our final system diagram below.
 
-`<img src="images/Final Project/Final_Report_Block.drawio.png" alt="Final System Block Diagram" width="760"/>`
+<img src="images/Final Project/Final_Report_Block.drawio.png" alt="Final System Block Diagram" width="760"/>
 
 ### 3.1 Software Requirements
 
@@ -115,7 +115,7 @@ Verified -- This is shown in the demo video. You do not need to be able to grip 
 
 400 by 400 image:
 
-`<img src="images/Final Project/Final_System_400.jpg" alt="Full System Image 400 by 400" width="400" height="400"/>`
+<img src="images/Final Project/Final_System_400.jpg" alt="Full System Image 400 by 400" width="400" height="400"/>
 
 ## Final Project Proposal
 
